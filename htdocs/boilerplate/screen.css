@@ -1,0 +1,75 @@
+@import "lib/reset.css";
+
+@import "lib/typography.css";
+
+@import "lib/forms.css";
+
+body {
+	font-size: 100%;
+}
+
+body,p,ul,li {
+	font-family: Constantia, Jensen, Scala, serif;
+}
+
+#profile,h1,h2,h3,h4,h5 {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+	margin-top: 2em;
+	margin-bottom: .5em;
+}
+
+#resume {
+	margin: 0 auto;
+	width: 40em;
+}
+
+#profile {
+	line-height: 130%;
+	font-weight: bold;
+}
+
+#profile div {
+	font-size: 140%;
+}
+
+#desc {
+	float: right
+}
+
+.email {
+	font-size: 75%;
+}
+
+.job {
+	margin-bottom: 1em;
+}
+
+.job p {
+	margin-bottom: 1em;
+}
+
+.jobdesc {
+	padding: 4px 4px 4px 1em;
+	background-color: #888;
+	color: #fff;
+}
+
+.jobdesc span {
+	font-size: 130%;
+}
+
+.jobbody {
+	padding: 1em 1em 0 1em;
+	border: 1px solid #888;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.bullets {
+	margin-top: 1em
+}
