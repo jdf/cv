@@ -62,6 +62,10 @@ blockquote {
 	display: none;
 }
 
+object {
+	display: none;
+}
+
 a:link,a:visited {
 	background: transparent;
 	text-decoration: none;
